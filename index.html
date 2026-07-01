@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>schweizergetränke.ch &mdash; Das Verzeichnis für Schweizer Getränke</title>
-  <meta name="description" content="schweizergetränke.ch ist das Verzeichnis für Schweizer Getränke &mdash; Erfrischungsgetränke, Weine, Biere und mehr, alles an einem Ort.">
+  <meta name="description" content="schweizergetränke.ch ist das Verzeichnis für Schweizer Getränke &mdash; Mineralwasser, Süssgetränke, Bier, Wein, Spirituosen und mehr, alles an einem Ort.">
   <meta name="author" content="schweizergetränke.ch">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://xn--schweizergetrnke-7nb.ch/">
@@ -31,7 +31,7 @@
   <link rel="apple-touch-icon" href="assets/icons/soda.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script type="application/ld+json">
   {
@@ -46,31 +46,158 @@
 </head>
 <body>
 
-  <div class="bubbles" aria-hidden="true">
-    <span></span><span></span><span></span><span></span><span></span>
-    <span></span><span></span><span></span><span></span><span></span>
-  </div>
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
 
-  <main class="hero">
-    <div class="hero-content">
-      <div class="cross-badge">
-        <img class="bottle-icon" src="assets/icons/soda.svg" alt="" width="40" height="40">
-      </div>
-      <h1>schweizer<span>getränke</span>.ch</h1>
-      <p class="tagline">Das Verzeichnis für Schweizer Getränke &mdash; alles an einem Ort.</p>
-      <ul class="categories" aria-label="Kategorien">
-        <li>Mineralwasser</li>
-        <li>Süssgetränke</li>
-        <li>Bier</li>
-        <li>Wein</li>
-        <li>Spirituosen</li>
-      </ul>
-      <p class="cta" role="status">Verzeichnis in Arbeit &mdash; bald verfügbar</p>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="schweizergetränke.ch — zur Startseite">
+        <span class="brand-badge">
+          <img src="assets/icons/soda.svg" alt="" width="22" height="22">
+        </span>
+        <span class="brand-name">schweizer<em>getränke</em>.ch</span>
+      </a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <a href="#kategorien">Kategorien</a>
+        <a href="#warum">Warum</a>
+        <span class="soon-pill">Bald verfügbar</span>
+      </nav>
     </div>
+  </header>
+
+  <main id="inhalt">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="cross" aria-hidden="true"></span>Verzeichnis in Arbeit</p>
+          <h1 class="reveal">Das Verzeichnis für <span class="accent">Schweizer</span> Getränke.</h1>
+          <p class="lede reveal">Vom Bündner Bergquellwasser bis zum Genfer Wein &mdash; wir sammeln alle Getränke, die in der Schweiz hergestellt werden. Kuratiert, unabhängig und an einem Ort.</p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#kategorien">Kategorien entdecken</a>
+            <a class="btn btn-ghost" href="#warum">Mehr erfahren</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="poster">
+            <div class="poster-cross">
+              <span></span><span></span>
+            </div>
+            <div class="poster-bubbles">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Marquee ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span class="marquee-group">
+          Mineralwasser <b>&#10010;</b> Süssgetränke <b>&#10010;</b> Bier <b>&#10010;</b> Wein <b>&#10010;</b> Spirituosen <b>&#10010;</b> Säfte &amp; Most <b>&#10010;</b> Sirup <b>&#10010;</b> Kaffee &amp; Tee <b>&#10010;</b>
+        </span>
+        <span class="marquee-group">
+          Mineralwasser <b>&#10010;</b> Süssgetränke <b>&#10010;</b> Bier <b>&#10010;</b> Wein <b>&#10010;</b> Spirituosen <b>&#10010;</b> Säfte &amp; Most <b>&#10010;</b> Sirup <b>&#10010;</b> Kaffee &amp; Tee <b>&#10010;</b>
+        </span>
+      </div>
+    </div>
+
+    <!-- ===== Kategorien ===== -->
+    <section class="categories" id="kategorien">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Kategorien</h2>
+          <p>Was Sie im Verzeichnis finden werden.</p>
+        </div>
+        <ul class="category-grid">
+          <li class="category-card reveal">
+            <span class="card-index">01</span>
+            <h3>Mineralwasser</h3>
+            <p>Quellen aus allen Landesteilen &mdash; still, prickelnd und alles dazwischen.</p>
+          </li>
+          <li class="category-card reveal">
+            <span class="card-index">02</span>
+            <h3>Süssgetränke</h3>
+            <p>Limonaden, Cola-Alternativen und Kultgetränke mit Schweizer Wurzeln.</p>
+          </li>
+          <li class="category-card reveal">
+            <span class="card-index">03</span>
+            <h3>Bier</h3>
+            <p>Von der Grossbrauerei bis zur Mikrobrauerei im Quartier.</p>
+          </li>
+          <li class="category-card reveal">
+            <span class="card-index">04</span>
+            <h3>Wein</h3>
+            <p>Weingüter aus allen sechs Weinbauregionen der Schweiz.</p>
+          </li>
+          <li class="category-card reveal">
+            <span class="card-index">05</span>
+            <h3>Spirituosen</h3>
+            <p>Brände, Gin, Whisky und Liköre aus einheimischer Produktion.</p>
+          </li>
+          <li class="category-card reveal">
+            <span class="card-index">06</span>
+            <h3>Säfte &amp; Most</h3>
+            <p>Apfelsaft, Most und Fruchtsäfte direkt vom Hof.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Warum ===== -->
+    <section class="features" id="warum">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Warum schweizergetränke.ch?</h2>
+          <p>Ein Verzeichnis, drei Versprechen.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature reveal">
+            <span class="feature-mark" aria-hidden="true">&#10010;</span>
+            <h3>Kuratiert</h3>
+            <p>Jeder Eintrag wird von Hand geprüft. Nur Getränke, die tatsächlich in der Schweiz hergestellt werden.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature-mark" aria-hidden="true">&#10010;</span>
+            <h3>Unabhängig</h3>
+            <p>Keine bezahlten Platzierungen, keine versteckte Werbung. Das Verzeichnis gehört niemandem ausser seinen Nutzerinnen und Nutzern.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature-mark" aria-hidden="true">&#10010;</span>
+            <h3>Alles an einem Ort</h3>
+            <p>Vom Mineralwasser bis zum Single Malt &mdash; die ganze Schweizer Getränkelandschaft, durchsuchbar auf einer Seite.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Coming soon ===== -->
+    <section class="notify">
+      <div class="container">
+        <div class="notify-panel reveal">
+          <div class="notify-bubbles" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <h2>Das Verzeichnis ist in Arbeit.</h2>
+          <p>Wir befüllen die Datenbank gerade Flasche für Flasche. Schauen Sie bald wieder vorbei.</p>
+          <span class="soon-pill soon-pill-light" role="status">Bald verfügbar</span>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer>
-    <p>&copy; <span id="year">2026</span> schweizergetränke.ch &middot; Made in Switzerland 🇨🇭</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#top">
+        <span class="brand-badge">
+          <img src="assets/icons/soda.svg" alt="" width="22" height="22">
+        </span>
+        <span class="brand-name">schweizer<em>getränke</em>.ch</span>
+      </a>
+      <p>&copy; <span id="year">2026</span> schweizergetränke.ch &middot; Made in Switzerland 🇨🇭</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
