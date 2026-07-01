@@ -18,6 +18,7 @@ html, body {
 body {
   font-family: 'Poppins', 'Segoe UI', sans-serif;
   color: var(--cream);
+  background: #7a0c0c;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -111,6 +112,26 @@ h1 span {
   color: rgba(255, 255, 255, 0.9);
 }
 
+.categories {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  list-style: none;
+}
+
+.categories li {
+  padding: 0.4rem 1.1rem;
+  border: 1px solid rgba(255, 248, 238, 0.35);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgba(255, 248, 238, 0.9);
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(2px);
+}
+
 .cta {
   display: inline-block;
   margin-top: 2.5rem;
@@ -118,21 +139,8 @@ h1 span {
   background: var(--gold);
   color: #3a2200;
   font-weight: 600;
-  text-decoration: none;
   border-radius: 999px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.cta:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
-}
-
-.cta[aria-disabled="true"] {
-  opacity: 0.5;
-  pointer-events: none;
-  cursor: default;
 }
 
 footer {
@@ -141,8 +149,8 @@ footer {
   text-align: center;
   padding: 1rem;
   font-size: 0.85rem;
-  color: rgba(0, 0, 0, 0.75);
-  background: rgba(255, 255, 255, 0.15);
+  color: var(--cream);
+  background: var(--dark-red);
 }
 
 /* Rising bubbles animation to evoke carbonated drinks */
@@ -201,5 +209,16 @@ footer {
 @media (max-width: 480px) {
   .cta {
     padding: 0.8rem 1.8rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bubbles span {
+    animation: none;
+    display: none;
+  }
+
+  .hero-content {
+    animation: none;
   }
 }

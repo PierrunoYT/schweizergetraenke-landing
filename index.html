@@ -5,18 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>schweizergetränke.ch &mdash; Das Verzeichnis für Schweizer Getränke</title>
   <meta name="description" content="schweizergetränke.ch ist das Verzeichnis für Schweizer Getränke &mdash; Erfrischungsgetränke, Weine, Biere und mehr, alles an einem Ort.">
-  <meta name="keywords" content="Schweizer Getränke, Getränke Verzeichnis, Schweiz, Getränke Schweiz, schweizergetränke">
   <meta name="author" content="schweizergetränke.ch">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://schweizergetränke.ch/">
+  <link rel="canonical" href="https://xn--schweizergetrnke-7nb.ch/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="schweizergetränke.ch">
   <meta property="og:title" content="schweizergetränke.ch — Das Verzeichnis für Schweizer Getränke">
   <meta property="og:description" content="Das Verzeichnis für Schweizer Getränke — alles an einem Ort.">
-  <meta property="og:url" content="https://schweizergetränke.ch/">
-  <meta property="og:image" content="https://schweizergetränke.ch/assets/icons/soda.png">
+  <meta property="og:url" content="https://xn--schweizergetrnke-7nb.ch/">
+  <meta property="og:image" content="https://xn--schweizergetrnke-7nb.ch/assets/icons/soda.png">
   <meta property="og:image:width" content="1024">
   <meta property="og:image:height" content="1024">
   <meta property="og:locale" content="de_CH">
@@ -25,11 +24,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="schweizergetränke.ch — Das Verzeichnis für Schweizer Getränke">
   <meta name="twitter:description" content="Das Verzeichnis für Schweizer Getränke — alles an einem Ort.">
-  <meta name="twitter:image" content="https://schweizergetränke.ch/assets/icons/soda.png">
+  <meta name="twitter:image" content="https://xn--schweizergetrnke-7nb.ch/assets/icons/soda.png">
 
   <meta name="theme-color" content="#d52b1e">
   <link rel="icon" type="image/svg+xml" href="assets/icons/soda.svg">
-  <link rel="apple-touch-icon" href="assets/icons/soda.svg">
+  <link rel="apple-touch-icon" href="assets/icons/soda.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -39,7 +38,7 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "schweizergetränke.ch",
-    "url": "https://schweizergetränke.ch/",
+    "url": "https://xn--schweizergetrnke-7nb.ch/",
     "description": "Das Verzeichnis für Schweizer Getränke — alles an einem Ort.",
     "inLanguage": "de-CH"
   }
@@ -47,7 +46,7 @@
 </head>
 <body>
 
-  <div class="bubbles">
+  <div class="bubbles" aria-hidden="true">
     <span></span><span></span><span></span><span></span><span></span>
     <span></span><span></span><span></span><span></span><span></span>
   </div>
@@ -55,16 +54,23 @@
   <main class="hero">
     <div class="hero-content">
       <div class="cross-badge">
-        <img class="bottle-icon" src="assets/icons/soda.svg" alt="" aria-hidden="true">
+        <img class="bottle-icon" src="assets/icons/soda.svg" alt="" width="40" height="40">
       </div>
       <h1>schweizer<span>getränke</span>.ch</h1>
       <p class="tagline">Das Verzeichnis für Schweizer Getränke &mdash; alles an einem Ort.</p>
-      <a href="#" class="cta" aria-disabled="true" onclick="return false;">Zum Verzeichnis</a>
+      <ul class="categories" aria-label="Kategorien">
+        <li>Mineralwasser</li>
+        <li>Süssgetränke</li>
+        <li>Bier</li>
+        <li>Wein</li>
+        <li>Spirituosen</li>
+      </ul>
+      <p class="cta" role="status">Verzeichnis in Arbeit &mdash; bald verfügbar</p>
     </div>
   </main>
 
   <footer>
-    <p>&copy; <span id="year"></span> schweizergetränke.ch &middot; Made in Switzerland 🇨🇭</p>
+    <p>&copy; <span id="year">2026</span> schweizergetränke.ch &middot; Made in Switzerland 🇨🇭</p>
   </footer>
 
   <script src="script.js"></script>
